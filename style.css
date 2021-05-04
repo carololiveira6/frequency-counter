@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+div#lettersDiv {
+    margin: 7px 0px;
+}
+
+div#wordsDiv {
+    margin: 15px 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.caixaTexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea#textInput {
+    width: 90vw;
+}
+
+button#countButton {
+    width: 140px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 800px) {
+    
+    textarea#textInput {
+        width: 60vw;
+    }
+}
